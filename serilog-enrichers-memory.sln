@@ -10,10 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{E9D1B5
 		Build.ps1 = Build.ps1
 		NuGet.Config = NuGet.Config
 		README.md = README.md
-		src\Serilog.Enrichers.Process\serilogmemory.pfx = src\Serilog.Enrichers.Process\serilogmemory.pfx
+		src\Serilog.Enrichers.Memory\serilogmemory.pfx = src\Serilog.Enrichers.Memory\serilogmemory.pfx
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Enrichers.Memory", "src\Serilog.Enrichers.Process\Serilog.Enrichers.Memory.csproj", "{2312A998-5E53-4355-9CB6-6014252B3E88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serilog.Enrichers.Memory", "src\Serilog.Enrichers.Memory\Serilog.Enrichers.Memory.csproj", "{2312A998-5E53-4355-9CB6-6014252B3E88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
