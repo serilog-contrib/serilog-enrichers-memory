@@ -23,8 +23,6 @@ namespace Serilog.Enrichers
     /// </summary>
     public class MemoryUsageEnricher : ILogEventEnricher
     {
-        LogEventProperty _cachedProperty;
-
         /// <summary>
         /// The property name added to enriched log events.
         /// </summary>
@@ -37,8 +35,7 @@ namespace Serilog.Enrichers
         /// <param name="propertyFactory">Factory for creating new properties to add to the event.</param>
         public void Enrich(LogEvent logEvent, ILogEventPropertyFactory propertyFactory)
         {
-            _cachedProperty = _cachedProperty ?? propertyFactory.CreateProperty(MemoryUsagePropertyName, GC.GetTotalMemory(false));
-            logEvent.AddPropertyIfAbsent(_cachedProperty);
+            logEvent.AddPropertyIfAbsent(propertyFactory.CreateProperty(MemoryUsagePropertyName, GC.GetTotalMemory(false)));
         }
     }
 }
