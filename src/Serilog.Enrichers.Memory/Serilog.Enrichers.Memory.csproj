@@ -6,7 +6,7 @@
     <Authors>Serilog Contributors</Authors>
     <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
     <AssemblyName>Serilog.Enrichers.Memory</AssemblyName>
-    <AssemblyOriginatorKeyFile>../../assets/serilogmemory.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>../../assets/SerilogMemory.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
     <PackageId>Serilog.Enrichers.Process</PackageId>
