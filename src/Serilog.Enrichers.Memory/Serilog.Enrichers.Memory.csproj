@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <Description>The memory enricher for Serilog.</Description>
-    <VersionPrefix>1.0.0</VersionPrefix>
-    <Authors>Serilog Contributors</Authors>
+    <VersionPrefix>1.0.1</VersionPrefix>
+    <Authors>Josh Schreuder</Authors>
     <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
     <AssemblyName>Serilog.Enrichers.Memory</AssemblyName>
     <AssemblyOriginatorKeyFile>../../assets/SerilogMemory.snk</AssemblyOriginatorKeyFile>
