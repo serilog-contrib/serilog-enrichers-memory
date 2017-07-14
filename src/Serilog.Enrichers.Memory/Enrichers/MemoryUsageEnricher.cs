@@ -19,7 +19,7 @@ using Serilog.Events;
 namespace Serilog.Enrichers
 {
     /// <summary>
-    /// Enriches log events with a MemoryUsage property containing an estimation of the current process's memory usage in bytes.
+    /// Enriches log events with a MemoryUsage property containing an estimation of the current process' memory usage in bytes.
     /// </summary>
     public class MemoryUsageEnricher : ILogEventEnricher
     {

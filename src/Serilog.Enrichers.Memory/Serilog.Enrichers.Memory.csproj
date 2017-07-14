@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <Description>The process enricher for Serilog.</Description>
+    <Description>The memory enricher for Serilog.</Description>
     <VersionPrefix>1.0.0</VersionPrefix>
     <Authors>Serilog Contributors</Authors>
     <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
@@ -9,8 +9,8 @@
     <AssemblyOriginatorKeyFile>../../assets/SerilogMemory.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>Serilog.Enrichers.Process</PackageId>
-    <PackageTags>serilog;process;enricher</PackageTags>
+    <PackageId>Serilog.Enrichers.Memory</PackageId>
+    <PackageTags>serilog;memory;enricher</PackageTags>
     <PackageIconUrl>http://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
     <PackageProjectUrl>https://joshschreuder.me</PackageProjectUrl>
     <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>

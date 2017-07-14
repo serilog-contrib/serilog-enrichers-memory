@@ -20,7 +20,7 @@ using Serilog.Enrichers;
 namespace Serilog
 {
     /// <summary>
-    /// Extends <see cref="LoggerConfiguration"/> to add enrichers related to process.
+    /// Extends <see cref="LoggerConfiguration"/> to add enrichers related to memory.
     /// capabilities.
     /// </summary>
     public static class ProcessLoggerConfigurationExtensions
