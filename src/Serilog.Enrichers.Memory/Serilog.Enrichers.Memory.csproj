@@ -12,7 +12,7 @@
     <PackageId>Serilog.Enrichers.Memory</PackageId>
     <PackageTags>serilog;memory;enricher</PackageTags>
     <PackageIconUrl>http://serilog.net/images/serilog-enricher-nuget.png</PackageIconUrl>
-    <PackageProjectUrl>https://joshschreuder.me</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/JoshSchreuder/serilog-enrichers-memory</PackageProjectUrl>
     <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
   </PropertyGroup>
