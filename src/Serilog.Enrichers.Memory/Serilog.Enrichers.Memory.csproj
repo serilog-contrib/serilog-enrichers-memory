@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <Description>The memory enricher for Serilog.</Description>
-    <VersionPrefix>1.0.2</VersionPrefix>
+    <VersionPrefix>1.0.3</VersionPrefix>
     <Authors>Josh Schreuder</Authors>
     <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
     <AssemblyName>Serilog.Enrichers.Memory</AssemblyName>
