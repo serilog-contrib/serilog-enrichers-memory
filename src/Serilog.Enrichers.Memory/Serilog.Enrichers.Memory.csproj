@@ -4,7 +4,7 @@
     <Description>The memory enricher for Serilog.</Description>
     <VersionPrefix>1.0.3</VersionPrefix>
     <Authors>Josh Schreuder</Authors>
-    <TargetFrameworks>net45;netstandard1.3</TargetFrameworks>
+    <TargetFrameworks>net45;netstandard1.3;netcoreapp2.0;netstandard2.0</TargetFrameworks>
     <AssemblyName>Serilog.Enrichers.Memory</AssemblyName>
     <AssemblyOriginatorKeyFile>../../assets/SerilogMemory.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
@@ -15,6 +15,7 @@
     <PackageProjectUrl>https://github.com/JoshSchreuder/serilog-enrichers-memory</PackageProjectUrl>
     <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
     <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+    <Version>1.0.4</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,7 +25,5 @@
   <ItemGroup Condition=" '$(TargetFramework)' == 'net45' ">
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
-  </ItemGroup>
-  <ItemGroup Condition=" '$(TargetFramework)' == 'netstandard1.3' ">
   </ItemGroup>
 </Project>
