@@ -26,4 +26,19 @@ And finally utilise the token in your logging template:
 var template = "{MemoryUsage}";
 ```
 
+You can also enrich your logging configuration for virtual memory:
+
+```csharp
+new LoggerConfiguration()
+    .Enrich.WithVirtualMemoryUsage();
+```
+
+And finally utilise the token in your logging template:
+
+```csharp
+var template = "{VirtualMemoryUsage}";
+```
+
+Please notice VirtualMemoryUsage is not available for .NET Standard 1.3 due to Process API unavailability.
+
 Copyright &copy; 2017 Josh Schreuder - Provided under the [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0.html).
